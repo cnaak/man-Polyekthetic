@@ -1,3 +1,20 @@
+# Standardized bib database
+stdRef
+
+# The cc directory
+cc
+
+# info files
+*.info
+
+# pdf figures
+fig/*pdf
+
+# The submission directory
+submission
+
+## My own edits above this line
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
