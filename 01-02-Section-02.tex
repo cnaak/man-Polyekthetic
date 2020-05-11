@@ -1,7 +1,42 @@
 %-----------------------------------------------------------------------------------------------
 \section{Section 2}
 
-    Work in progress...
+    In  deriving   a   definition   for   the   \emph{isentropic   expansion   exponent},   $k$,
+    Bejan~\cite{2006-BejanA-Wiley} differentiates an $s:s(P,  v)$  function,  and  describes  an
+    isentropic process as:
+    %
+    \begin{equation}
+        ds = \parxyz sPv\,dP + \parxyz svP\,dv = 0.
+        \label{eq:iso-sPv}
+    \end{equation}
+
+    It is worth noting that Eq.~(\ref{eq:iso-sPv}) is valid in general, and not only to an ideal
+    gas. By a suitable manipulation  of  the  $\inlxyz  sPv$  and  $\inlxyz  svP$  coefficients,
+    Eq.~(\ref{eq:iso-sPv}) can be recast into:
+    %
+    \begin{equation}
+        \frac{dP}{P} = -k\frac{dv}{v},
+        \label{eq:iso-sPv.ODE}
+    \end{equation}
+    %
+    \noindent with
+    %
+    \begin{equation}
+        k = \frac{-v}{P}\parxyz Pvs.
+        \label{eq:iso-sPv.k}
+    \end{equation}
+
+    As $k:k(P, v)$ in general, let $k$  be  taken  as  a  \emph{constant}  in  the  \emph{local}
+    vicinity   of   a   state   of   interest;   therefore,   the   \emph{local}   solution   of
+    Eq.~(\ref{eq:iso-sPv.ODE}) is the local polytropic process $Pv^k = \mbox{const}$.
+
+    Bejan~\cite{2006-BejanA-Wiley} also derives an \emph{isothermal-expansion exponent},  $k_T$,
+    so that $Pv^{k_T}  =  \mbox{const}$  for  isothermal  processes  in  a  similar  fashion  as
+    Eqs.~(\ref{eq:iso-sPv})--(\ref{eq:iso-sPv.k}).                                     Moreover,
+    Nederstigt~\cite{2017-NederstigtP-TUDelft} generalizes isentropic  exponents  $\gamma_{Pv}$,
+    $\gamma_{Tv}$, and $\gamma_{PT}$, so that isentropic processes can be  described  as  either
+    $Pv^{\gamma_{Pv}}   =   \mbox{const}$,   or   $Tv^{\gamma_{Tv}}    =    \mbox{const}$,    or
+    $PT^{\gamma_{PT}} = \mbox{const}$.
 
 %-----------------------------------------------------------------------------------------------
 
