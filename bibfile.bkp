@@ -37,3 +37,17 @@
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Book{2015-KroosKA+PotterMC-Cengage,
+  title     = {Termodinâmica para engenheiros},
+  publisher = {Cengage Learning},
+  year      = {2015},
+  author    = {Kroos, Kenneth A. and Potter, Merle C.},
+  address   = {São Paulo, SP},
+  edition   = {First},
+  isbn      = {978-85-221-2198-4},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
