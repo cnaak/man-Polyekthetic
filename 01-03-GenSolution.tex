@@ -69,7 +69,7 @@
     \end{equation}
 
     \begin{theorem}\label{the:k.recip}
-        If $k_{ij\ell}$ is a polyekthetic exponent, then
+        if $k_{ij\ell}$ is a polyekthetic exponent, then
         %
         \begin{equation}
             k_{ji\ell} = \frac{1}{k_{ij\ell}}.
@@ -94,26 +94,55 @@
         Thus proving the theorem.
     \end{proof}
 
-    It is straightforward to demonstrate the following properties of $k_{ij\ell}$:
-    %
-    \begin{align}
-        \label{eq:polyek.k.recipr}
-        k_{ji\ell}  &= -i\partial j\ell / j\partial i\ell = k_{ij\ell}^{-1},    & \qquad & \mbox{reciprocity,} \\
-        \label{eq:polyek.k.consti}
-        k_{iji}     &= 0,                                                       & \qquad & \mbox{$i$-constancy, and} \\
-        \label{eq:polyek.k.constj}
-        k_{ijj}     &= k_{jij}^{-1} = k_{iji}^{-1} = \pm\infty,                 & \qquad & \mbox{$j$-constancy},
-    \end{align}
-    %
-    \noindent in which the last equality comes from the  immateriality  of  the  $i$,  $j$,  and
-    $\ell$  property  indices.  Therefore,  whenever  property   indices   are   repeated,   the
-    corresponding exponent $k$ is a trivial one.
+    \begin{theorem}\label{the:k.consti}
+        All polyekthetic exponents $k_{iji} = 0$.
+    \end{theorem}
 
-    If properties $i$, $j$, and $\ell$, $i \neq j \neq \ell$,  are  chosen  from  the  ``usual''
-    $\{P, T, v, u, h, s, a, g\}$ engineering thermodynamics intensive property set,  there  will
-    be $8!/5! = 336$ combinations of non-trivial $k_{ij\ell}$. However, due to  the  reciprocity
-    property  of  Eq.~(\ref{eq:polyek.k.recipr}),   only   $168$   non-trivial,   non-reciprocal
-    $k_{ij\ell}$ are required to easily deduce the remaining ones.
+    \begin{proof}
+        Let $k_{ij\ell}$ be a polyekthetic exponent, then, Eq.~(\ref{eq:polyek.k}) holds.
+
+        Applying  Eq.~(\ref{eq:polyek.k})  for  a  $k_{iji}$,  i.e.,   obtaining   a   const-$i$
+        polyekthetic exponent, gives
+        %
+        \begin{align}
+            k_{iji} &= \frac{-j}{i} \parxyz iji
+                    & \rightharpoondown\\
+            k_{iji} &= 0,
+        \end{align}
+        %
+        \noindent by properties of partial derivatives, thus proving the theorem.
+    \end{proof}
+
+    \begin{theorem}\label{the:k.constj}
+        All polyekthetic exponents $k_{ijj} = \pm\infty$.
+    \end{theorem}
+
+    \begin{proof}
+        Let $k_{ij\ell}$ be a polyekthetic exponent, then, Eq.~(\ref{eq:polyek.k}) holds.
+
+        Applying  Eq.~(\ref{eq:polyek.k})  for  a  $k_{ijj}$,  i.e.,   obtaining   a   const-$j$
+        polyekthetic exponent, gives
+        %
+        \begin{align}
+            k_{ijj} &= \frac{-j}{i} \parxyz ijj
+                    & \rightharpoondown\\
+            k_{ijj} &= \pm\infty,
+        \end{align}
+        %
+        \noindent by properties of partial derivatives, thus proving the theorem.
+
+        It  is  worth  noting  that   Theorem~\ref{the:k.constj}   can   also   be   proven   by
+        Theorems~\ref{the:k.recip} and~\ref{the:k.consti}.
+    \end{proof}
+
+    Moreover, from Theorems~\ref{the:k.consti} and~\ref{the:k.constj}, whenever property indices
+    are repeated, the corresponding polyekthetic exponent $k$ is a trivial one.
+
+    If properties $i$, $j$, and $\ell$, $i \neq j  \neq  \ell  \neq  i$,  are  chosen  from  the
+    ``usual'' $\{P, T, v, u, h, s, a, g\}$ engineering thermodynamics  intensive  property  set,
+    there will be $8!/5! = 336$ combinations of non-trivial $k_{ij\ell}$. However,  due  to  the
+    reciprocity  property  of  Theorem~\ref{the:k.recip},  there  will  be  $168$   non-trivial,
+    non-reciprocal $k_{ij\ell}$ required to easily deduce the remaining ones.
 
 %-----------------------------------------------------------------------------------------------
 
