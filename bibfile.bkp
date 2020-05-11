@@ -1,0 +1,39 @@
+@misc{2020-NaaktgeborenC-engrXiv,
+ title={On Exact and Local Polytropic Processes: Etymology, Modeling, and Requisites},
+ url={engrxiv.org/ca6d4},
+ DOI={10.31224/osf.io/ca6d4},
+ publisher={engrXiv},
+ author={Naaktgeboren, C.},
+ year={2020. engrxiv.org/ca6d4},
+ month={May}
+}
+
+% Encoding: UTF-8
+
+@Book{2013-CengelYA+BolesMA-AMGH,
+  title     = {Termodinâmica},
+  publisher = {AMGH},
+  year      = {2013},
+  author    = {{Ç}engel, Y. A. and Boles, M. A.},
+  editor    = {Nepomuceno, V. R.},
+  address   = {Porto Alegre},
+  edition   = {7th},
+  isbn      = {978-85-8055-200-3},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Book{2002-MoranMJ+ShapiroHN-LTC,
+  title     = {Princípios de termodinâmica para engenharia},
+  publisher = {Livros Técnicos e Científicos Editora},
+  year      = {2002},
+  author    = {Moran, Michael J. and Shapiro, Howard N.},
+  address   = {Rio de Janeiro, RJ},
+  edition   = {Fourth},
+  isbn      = {978-85-216-1340-4},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
