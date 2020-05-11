@@ -1,0 +1,28 @@
+%-----------------------------------------------------------------------------------------------
+\setlength{\abovecaptionskip}{4pt}
+\setlength{\columnsep}{5.5mm}
+\setlength{\columnseprule}{0.2pt}
+\setlength{\fboxrule}{0.4pt} % Width of the border around the abstract
+%-----------------------------------------------------------------------------------------------
+\definecolor{color1}{RGB}{0,0,90} % Color of the article title and sections
+\definecolor{color2}{RGB}{0,20,20} % Color of the boxes behind the abstract and headings
+\definecolor{color3}{RGB}{0,0,192} % Color of the article title and sections
+%-----------------------------------------------------------------------------------------------
+\usepackage[hyperindex,breaklinks]{hyperref} % Required for hyperlinks
+\hypersetup{%
+    hidelinks,
+    colorlinks,
+    breaklinks=true,
+    urlcolor=color3,
+    citecolor=color1,
+    linkcolor=color1,
+    bookmarksopen=false,
+    pdftitle={Title},
+    pdfauthor={Author}
+}
+%-----------------------------------------------------------------------------------------------
+\newtheorem{example}{Example}
+%-----------------------------------------------------------------------------------------------
+\newcommand{\super}[1]{$^{\mathrm{{#1}}}$\xspace}
+\newcommand{\difff}{\ensuremath{\mathrm{d}}}
+%-----------------------------------------------------------------------------------------------
