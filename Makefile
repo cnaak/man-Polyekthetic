@@ -1,4 +1,4 @@
-PREF=2020-NaaktgeborenC+etal-CarnotPrinciple
+PREF=2020-NaaktgeborenC-Polyekthetic
 
 clean:
 	for EXT in log aux blg bbl out toc info; do \
