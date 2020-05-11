@@ -96,3 +96,20 @@
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Book{2006-BejanA-Wiley,
+  title     = {Advanced Engineering Thermodynamics},
+  publisher = {John Wiley {\&} Sons},
+  year      = {2006},
+  author    = {Adrian Bejan},
+  address   = {Hoboken, New Jersey},
+  edition   = {3rd},
+  month     = aug,
+  isbn      = {978-0-471-67763-5},
+  comment   = {https://www.wiley.com/en-us/Advanced+Engineering+Thermodynamics%2C+3rd+Edition-p-9780471677635},
+  keywords  = {Thermodynamics},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
