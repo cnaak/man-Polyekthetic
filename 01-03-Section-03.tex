@@ -1,7 +1,50 @@
 %-----------------------------------------------------------------------------------------------
-\section{Section 3}
+\section{General Solution}
 
-    Work in progress...
+    Let $\ell:\ell(i, j)$, the total differential of $\ell$ is, for a const-$\ell$ process:
+    %
+    \begin{equation}
+        d\ell = \parxyz\ell ij\,di + \parxyz\ell ji\,dj = 0
+        \label{eq:polyek.dl}
+    \end{equation}
+    %
+    \noindent which must be recast into an ODE whose  solution  is  Eq.~(\ref{eq:polyekthetic}).
+    Isolating $di$:
+    %
+    \begin{equation}
+        di = -\parxyz\ell ji \parxyz i\ell j\,dj,
+        \label{eq:polyek.di}
+    \end{equation}
+    %
+    \noindent which can be arranged as:
+    %
+    \begin{equation}
+        \frac{di}{i} = \frac{-j}{i} \parxyz\ell ji \parxyz i\ell j \frac{dj}{j}.
+        \label{eq:polyek.ode}
+    \end{equation}
+
+    The polyekthetic exponent, $k_{ij\ell}$, is therefore:
+    %
+    \begin{equation}
+        k_{ij\ell} = \frac{j}{i} \parxyz\ell ji \parxyz i\ell j.
+        \label{eq:polyek.k.raw}
+    \end{equation}
+
+    Using the cyclic relationship:
+    %
+    \begin{equation}
+        -1 = \parxyz ji\ell \parxyz\ell ji \parxyz i\ell j,
+        \label{eq:cyclic}
+    \end{equation}
+    %
+    \noindent the polyekthetic exponent can be rewritten as:
+    %
+    \begin{equation}
+        k_{ij\ell} = \frac{-j}{i} \parxyz ij\ell.
+        \label{eq:polyek.k}
+    \end{equation}
+
+    Eq.~(\ref{eq:polyek.k}) is thus the general solution for $k_{ij\ell}$.
 
 %-----------------------------------------------------------------------------------------------
 
