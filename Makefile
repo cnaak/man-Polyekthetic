@@ -10,13 +10,15 @@ wipe: clean
 
 cc/%.pdf: cc/%.svg
 	inkscape \
-		--file=$< \
-		--export-pdf=$@
+		--export-pdf-version=1.4 \
+		--export-filename=$@ \
+		$<
 
 fig/%.pdf: fig/%.svg
 	inkscape \
-		--file=$< \
-		--export-pdf=$@
+		--export-pdf-version=1.4 \
+		--export-filename=$@ \
+		$<
 
 ${PREF}.pdf: ${PREF}.tex 0*tex \
 		cc/by.pdf \
