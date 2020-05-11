@@ -62,3 +62,23 @@
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{2012-ChristiansJ-IntJMechEngEduc,
+  author   = {Christians, Joseph},
+  title    = {Approach for teaching polytropic processes based on the energy transfer ratio},
+  journal  = {Int J Mech Eng Educ},
+  year     = {2012},
+  volume   = {40},
+  number   = {1},
+  pages    = {53--65},
+  month    = jan,
+  issn     = {0306-4190},
+  abstract = {The polytropic process equation, $Pv^n = C$, is widely taught in mechanical engineering curricula throughout the world as an important concept in thermodynamics. Unfortunately, it is too often presented as a statement of fact, providing the student with little or no understanding of its fundamental basis. Herein the principal underpinnings of this foundational equation are elucidated by the introduction of a new term, called the energy transfer ratio (K). A teaching approach centered around the energy transfer ratio can give the student new insights into polytropic processes. Reversible polytropic processes in closed and open systems are examined, including open systems where the Mach number is signifi cant. The discussion is then expanded to include irreversible processes. It is hoped that the reader will fi nd this material to be a useful reference in presenting polytropic processes to students.},
+  doi      = {10.7227/IJMEE.40.1.9},
+  file     = {:2012-ChristiansJ-IntJMechEngEduc.pdf:PDF},
+  url      = {http://dx.doi.org/10.7227/IJMEE.40.1.9},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
