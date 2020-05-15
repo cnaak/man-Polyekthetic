@@ -69,16 +69,34 @@
     %---------------------------------------------------------------------------------------
     \subsection{Polyekthetic Processes Definition}
 
-    The generalization of these ideas follows: let the property indices $i$, $j$, and $\ell$  be
-    any one of the usual intensive system properties, then the \emph{exponent}  $k_{ij\ell}$  is
-    such that:
+    The generalization of these ideas follows:
+
+    \begin{definition}\label{def:polyekthetic}
+        Let the property indices $i$, $j$, and $\ell$ be \emph{any} intensive system properties,
+        then \emph{any} process relation in the form
+        %
+        \begin{equation}
+            ij^n = \mathsf{c} = \mbox{const.},
+            \label{eq:def.polyekthetic}
+        \end{equation}
+        %
+        \noindent for constant or variable $n$, is a \textbf{polyekthetic process}.
+    \end{definition}
+
+    Therefore, polyekthetic processes allow any property pair---and not just  $Pv$---to  be  the
+    ``base,'' for its power relationship  of  Eq.~(\ref{eq:def.polyekthetic}).  Moreover,  since
+    polytropic processes are recovered by setting $i \equiv P$, $j \equiv v$,  and  letting  the
+    exponent $n$ have any real value, clearly the polytropic process set is a proper  subset  of
+    the polyekthetic process set.
+
+    Moreover, let constant-property process \emph{exponents} $k_{ij\ell}$ be such that:
     %
     \begin{equation}
         ij^{k_{ij\ell}} = \mathsf{c} = \mbox{const.},
         \label{eq:polyekthetic}
     \end{equation}
     %
-    \noindent at least \emph{locally}, for an iso-$\ell$ process.
+    \noindent hold, at least \emph{locally}, for an iso-$\ell$ process.
 
     Thus, the following are all examples of polyekthetic process descriptions:
     %
@@ -86,7 +104,7 @@
         Tv^{k_{Tvs}} = \mathsf{c_1} = \mbox{const.}, \label{eq:ex.Tvs} \\
         sP^{k_{sPT}} = \mathsf{c_2} = \mbox{const.}, \label{eq:ex.sPT} \\
         sv^0 = \mathsf{c_3} = \mbox{const.}, \label{eq:ex.sv0} \\
-        hv^{\infty} = \mathsf{c_4} = \mbox{const.}, \label{eq:ex.hvh}
+        \lim_{n \to +\infty}hv^n = \mathsf{c_4} = \mbox{const.}, \label{eq:ex.hvh}
     \end{align}
     %
     \noindent in which Eq.~(\ref{eq:ex.Tvs}) describes an isentropic process  in  a  $Tv$  base;
@@ -106,10 +124,6 @@
 
     Theorem~\ref{the:const-prop} already tokens  polyekthetic  process  are  more  general  than
     polytropic processes, since thet latter cannot specify \emph{any} constant-property process.
-
-    Since polytropic processes are recovered by setting $i \equiv P$, $j \equiv v$, and  letting
-    the exponent $k_{Pv\ell} = n$ have any real value, clearly the polytropic process set  is  a
-    proper subset of the polyekthetic process set.
 
     %---------------------------------------------------------------------------------------
     \subsection{Polyekthetic Processes Etymology}
