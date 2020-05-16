@@ -2,7 +2,7 @@
 \section{Example Applications}
 
     %---------------------------------------------------------------------------------------
-    \subsection{Isentropic Process in const-$c_v$, van-der-Waals Substances}
+    \subsection{Iso-$s$ Process in const-$c_v$, van-der-Waals Substance}
 
     Consider         a         substance         whose         Helmholtz          characteristic
     function~\cite{1986-JonesJB+HawkinsGA-Wiley} in reduced coordinates is given by:
@@ -106,9 +106,49 @@
     as an exact polytropic process~\cite{2020-NaaktgeborenC-engrXiv}.
 
     %---------------------------------------------------------------------------------------
-    \subsection{Const-Property Polytropic Processes in Ideal Gases}
+    \subsection{General Const-Property Polytropic Processes}
 
-    Work in progress...
+    Since  polytropic  processes  are  also  polyekthetic  processes---by  fixing  the  base  as
+    $Pv$---one  can  apply  either  Eq.~(\ref{eq:polyek.k})  or~(\ref{eq:k.bri})   in   deriving
+    polytropic process exponents  $k_{Pv\ell}$  for  $\ell  \in  \{T,  u,  h,  s,  a,  g\}$  for
+    (i)~generic substance models, and for (ii)~particular cases, such as ideal gases.
+
+    Table~\ref{tab:kPv} brings such values. Results show an agreement between the polytropic and
+    the corresponding $Pv$-based polyekthetic exponents. The polyekthetic exponent results  also
+    show that  constant-$a$  and  constant-$g$  process  aren't  exactly  polytropic,  even  for
+    constant-specific-heat ideal gases, given that such exponents are a function of the entropy.
+
+    \begin{table}[ht]
+        \centering
+        \caption{General values for $k_{Pv\ell}$ polyekthetic exponents, and for the ideal gas limit}
+        \vspace{4pt}
+        \begin{tabular}{ccc}
+            \toprule
+            Exponent    & Value     &
+            Ideal gas limit \\
+            \midrule
+            $k_{PvT}$   &
+            \(\displaystyle\frac{1}{P\kappa}\) &
+            $1$ \\[\bigskipamount]
+            $k_{Pvu}$   &
+            \(\displaystyle\frac{c_p - \beta Pv}{P(\kappa c_p - T\beta^2v)}\) &
+            $1$ \\[\bigskipamount]
+            $k_{Pvh}$   &
+            \(\displaystyle\frac{c_p}{P[\kappa c_p + \beta v(1 - \beta T)]}\) &
+            $1$ \\[\bigskipamount]
+            $k_{Pvs}$   &
+            \(\displaystyle\frac{c_p}{P(\kappa c_p - T\beta^2v)}\) &
+            $\gamma$ \\[\bigskipamount]
+            $k_{Pva}$   &
+            \(\displaystyle\frac{s + \beta Pv}{P\kappa s}\) &
+            \(\displaystyle 1 + \frac{R}{s}\) \\[\bigskipamount]
+            $k_{Pvg}$   &
+            \(\displaystyle\frac{s}{P(\kappa s - \beta v)}\) &
+            \(\displaystyle\frac{s}{s - R}\) \\[\bigskipamount]
+            \bottomrule
+        \end{tabular}
+        \label{tab:kPv}
+    \end{table}
 
 %-----------------------------------------------------------------------------------------------
 
