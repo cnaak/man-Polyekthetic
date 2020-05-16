@@ -1,7 +1,31 @@
 %-----------------------------------------------------------------------------------------------
 \section{Example Application}
 
-    Work in progress...
+    Consider         a         substance         whose         Helmholtz          characteristic
+    function~\cite{1986-JonesJB+HawkinsGA-Wiley} in reduced coordinates is given by:
+    %
+    \begin{equation}
+        a_r = \frac{8T_r}{3}\left[
+                  \phi\left(1 - \log T_r\right) - \log(3v_r - 1)
+              \right] - \frac{3}{v_r},
+        \label{eq:ex.aTv}
+    \end{equation}
+    %
+    \noindent where $a_r \equiv a / (P_{cr}v_{cr})$ is the reduced specific Helmholtz energy,
+    $T_r \equiv T / T_{cr}$ is the reduced temperature, $\phi \equiv \bar{c}_v / \bar{R}$ is a
+    dimensionless isochoric specific heat, $v_r \equiv v / v_{cr}$ is the reduced specific
+    volume, $P_{cr}$ is the substance critical pressure, $T_{cr}$ is the substance critical
+    temperature, and $v_{cr} = Z_{cr}(RT_{cr}/P_{cr})$ is the substance model critical specific
+    volume, with $Z_{cr} = 3/8$.
+
+    The  Equation  of  State,  EoS,  of  this   substance   is   obtained   by   differentiating
+    Eq.~(\ref{eq:ex.aTv}) partially with respect to $v_r$~\cite{1986-JonesJB+HawkinsGA-Wiley}:
+    %
+    \begin{align}
+        P_r & = \parxyz{a_r}{v_r}{T_r} & \rightharpoondown\\
+            & = \frac{8T_r}{3v_r - 1} - \frac{3}{v_r^2}, \label{eq:ex.EoS}
+    \end{align}
+    %
 
 %-----------------------------------------------------------------------------------------------
 
